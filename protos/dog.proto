@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package dogservice;
+
+message Dog {
+    int32 id = 1;
+    string breed = 2;
+    int32 age_limit = 3;
+    string description = 4;
+}
+
+message DogRequest {
+    int32 id = 1;
+}
+
+message DogResponse {
+    Dog dog = 1;
+}
+
+service DogService {
+    rpc GetDog (DogRequest) returns (DogResponse);
+}
