@@ -1,0 +1,13 @@
+setup.py
+GRPC_server/__init__.py
+GRPC_server/client.py
+GRPC_server/dog_pb2.py
+GRPC_server/dog_pb2_grpc.py
+GRPC_server/dogs_database.py
+GRPC_server/server.py
+GRPC_server.egg-info/PKG-INFO
+GRPC_server.egg-info/SOURCES.txt
+GRPC_server.egg-info/dependency_links.txt
+GRPC_server.egg-info/entry_points.txt
+GRPC_server.egg-info/requires.txt
+GRPC_server.egg-info/top_level.txt
